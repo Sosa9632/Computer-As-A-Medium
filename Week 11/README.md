@@ -13,7 +13,3 @@
 ### Task 3 — Mana
 
 [`PlayerAttack.cs`](PlayerAttack.cs) displays mana and spends 10 mana per R press to swing the sword.
-
-### Credits
-
-Samuel Ruiz tested the trap and recorded the playthrough. Codex helped write the script changes shown here. Professor Hongbing Pan provided the starter project.
