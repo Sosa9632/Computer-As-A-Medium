@@ -1,14 +1,9 @@
-# Week 11 — 2DGameExample
+# Week 11
 
-[Watch the gameplay demo](https://youtu.be/5toaeGRAKf8)
+[My Unity playthrough](https://youtu.be/5toaeGRAKf8)
 
-## Changes
+- `HealthPack.cs` and `PlayerHealth.cs` — The green pack gives you 10 health, up to 100. It disappears after you use it.
+- `Trap.cs` — When you touch the spikes, you lose 10 health and a yellow block pops up.
+- `PlayerAttack.cs` — Press R to swing the sword and spend 10 mana. Holding R only spends mana once.
 
-- `HealthPack.cs` and `PlayerHealth.cs` add green pickups that restore 10 health up to a maximum of 100.
-- `PlayerAttack.cs` displays mana and spends 10 mana per R press to play the sword animation.
-- `Trap.cs` shows a yellow block briefly when the player takes damage from the spikes.
-
-## Credits
-
-- Professor Hongbing Pan provided the Unity starter project, scene, and sword animation.
-- Samuel Ruiz directed the changes, checked the trap in Unity, and recorded the demo. Codex assisted with the C# changes for the health pack, mana, and trap.
+I tested the trap and recorded this playthrough. Professor Hongbing Pan provided the starter project, and I used Codex to help write the script changes.
